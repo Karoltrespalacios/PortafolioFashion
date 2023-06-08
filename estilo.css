@@ -1,0 +1,108 @@
+/*
+------------INDEX-------------
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower';
+}
+
+.header{
+    position: fixed;
+    top: 10;
+    left: 15;
+    width: 100%;
+    padding: 20px 10%;
+    background: #f80693f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+
+.logo{
+    font-size: 25px;
+    color: rgb(251, 248, 248) ;
+    text-decoration: none;
+    font-weight: 500;
+    }
+
+.nav a{
+        color: rgb(250, 246, 248) ;
+        text-decoration: none;
+        margin-left: 10px;
+        transition: .3s;
+  
+  }
+.nav a:hover
+      {
+           color: #741151(219, 61, 219);
+      
+          }
+.img 
+{
+    width: 50%;
+    margin-top: 150px;
+    border-radius: 60%;
+    width: 150px;
+    height: 100px;
+    position: flex;
+}
+
+.hoja {
+    align-content: center;
+    background-color: rgb(249, 127, 186);
+}
+.parafo{
+    margin: auto;
+    margin-top: -5px;
+    max-width: 600px;
+    background-color: rgb(249, 127, 186);
+    align-items: center;
+}
+.parafo h1,h2,h3{
+        max-width: 800px;
+        align-content: center;
+        margin: auto;
+        font-size: 50px;
+        color: rgb(250, 58, 131);
+}
+
+.parafo h3{
+        max-width: 800px;
+        align-content: center;
+        margin: auto;
+        font-size: 20px;
+        color: rgb(20, 19, 19);
+}
+.parafo p{
+max-width: 600px;
+margin-left: 5vh;
+align-content: center;
+margin: auto;
+}
+.parafo h4{
+    max-width: 800px;
+    align-content: left;
+    margin: auto;
+    font-size: 100%;
+    color: rgb(18, 18, 18);
+  
+}   
+
+h4{
+    color: black;
+    font-size: 50px;
+}
+
+.redes img
+{
+    width: 20% ;
+    height: 25%;
+
+   
+    
+}
+ 

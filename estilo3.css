@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower';
+}
+.header{
+    position: fixed;
+    top: 10;
+    left: 15;
+    width: 100%;
+    padding: 20px 10%;
+    background: #f700a1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+    
+
+ 
+
+.logo{
+        font-size: 25px;
+        color: rgb(238, 226, 226) ;
+        text-decoration: none;
+        font-weight: 800;
+        }
+.nav{
+            font-size: 10;
+            color: rgb(29, 16, 16) ;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 40px;
+            transition: .3s;
+      
+      }
+.nav a{
+        color: rgb(206, 206, 206) ;
+        text-decoration: none;
+        margin-left: 10px;
+        transition: .3s;    
+  
+  }
+.nav a:hover
+      {
+           color: rgb(249, 127, 186);
+      
+          }
+img{
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 60%;
+    width: 250px;
+    height: px;
+    position: flex;
+}
+
+.hoja {
+    align-content: center;
+    background-color: rgb(249, 127, 186);
+}
+
+.parafo{
+        margin: auto;
+        margin-top: -5px;
+        max-width: 850px;
+        background-color: rgb(249, 127, 186);
+        align-items: center;
+}
+.parafo h1,h2,h3{
+        max-width: 900px;
+        align-content: center;
+        margin: auto;
+        font-size: 50px;
+        color: rgb(250, 58, 131);
+}
+.parafo p{
+    max-width: 800px;
+    margin-left: 5vh;
+    align-content: center;
+    margin: auto;
+}
+.parafo h4{
+    max-width: 800px;
+    align-content: left;
+    margin: auto;
+    font-size: 240%;
+    color: rgb(18, 18, 18);
+  
+}   
